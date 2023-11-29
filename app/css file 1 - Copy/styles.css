@@ -1,0 +1,40 @@
+{
+	margin:opx;
+}
+header
+{
+	background: linear-gradient(45deg,rgb(94,184,207),rgb(0,67,110),rgb(216,125,107));
+	display:flex;
+	height:60px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+header>h1
+{
+	color:white;
+
+}
+header#links
+{
+	color:white;
+	text-decoration: none;
+	padding:20px;
+
+}
+header>#links>a:hover
+{
+	text-decoration: underline;
+
+}
+@media(min-width:0px)and (max-width:900px) 
+{
+	header 
+	{
+		position:relative; 
+		flex-direction: column;
+		height:75px;
+		top:7px;
+	}
+	
+}

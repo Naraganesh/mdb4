@@ -1,0 +1,114 @@
+*
+{
+	margin:0px;
+} 
+header
+{
+	background-color:linear-gradiant(45deg,rgb(100,242,230),rgb(140,126,144),rgb(67,230,170)); 
+	height:50px;
+
+}
+links
+{
+	background-color: red;
+	color:green;
+}
+header#links:hover
+{
+   text-decoration:underline;
+} 
+@media (min-width:0px) and (max-width:900px) 
+{
+	header  
+	{
+		flex-direction: column; 
+		height:75px;
+		top:7px;
+	}
+	header>a 
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	lim

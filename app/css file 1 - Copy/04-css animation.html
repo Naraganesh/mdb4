@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css animation</title>
+	<style>
+		div
+		{
+			background: linear-gradient(45deg,orange,blue,green);
+			width:110px;
+			height:80px;
+			position:relative;
+
+			animation-name: box;
+			animation-duration:1s;
+			animation-timing-function: linear;
+			animation-delay: 0s;
+			animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+        @keyframes square
+        {
+        	0%,100%
+        	{
+        		top:0px;
+        		left:0px;
+
+        	}
+        25%
+        {
+        	left:500px;
+        	top:0px;
+
+        }
+        50%
+        {
+        	left:500px;
+        	top:200px;
+        }
+        75%
+        {
+        	left:0px;
+        	top:200px;
+        }
+        }
+    </style>
+
+
+</head>
+<body>
+	<div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css media queries</title>
+	<style> 
+		body
+		{
+			background-color:whitesmoke;
+		}
+		div>h1
+		{
+			color:red;
+			display:inline-block;
+		}
+		@media(min-width:0px)and(max-width:50px)
+		{
+			body
+			{
+				background-color: blue;
+			}
+			div>h1
+			{
+				color:white;
+				text-align:cente;
+			}
+			div>h1:first-child
+			{
+				display:block;
+			}
+		}
+		@media(min-width:200px)and(max-width:650px)
+		{
+			body
+			{
+				background-color: green;
+			}
+			div>h1
+			{
+				color:red;
+				text-align:cente;
+			}
+			div>h1:nth-child
+			{
+				display:block;
+			}
+		}
+		@media(min-width:400px)and(max-width:750px)
+		{
+			body
+			{
+				background-color: darkcyan;
+			}
+			div>h1
+			{
+				color:black;
+				text-align:cente;
+			}
+			div>h1:nth-child
+			{
+				display:block;
+			}
+		}
+		@media(min-width:500px)
+		{
+			body
+			{
+				background-color: gold;
+			}
+			div>h1
+			{
+				color:green;
+				
+			}
+			div>h1:last-child
+			{
+				display:block;
+			}
+		}
+</style>
+</head>
+<body>
+     <h1>mobile screen</h1>
+     <h1>tv screen</h1>
+     <h1>tap screen</h1>
+     <h1>laptop screen</h1>
+</body>
+</html>

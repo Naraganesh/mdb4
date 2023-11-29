@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css transform</title> 
+    <style> 
+	*
+	{
+		margin:0px;
+
+	}
+	div
+	{
+		box-shadow:0 0 10px black;
+		width:350px;
+		height:200px;
+		margin:100px auto;
+		position:relative;
+	} 
+	div:hover
+	{
+		cursor:pointer;
+	}
+	div>img 
+	{ 
+		width:inherit; 
+		height:inherit; 
+		
+	}  
+	div>#child-one
+	
+	{ 
+		background-color:red;
+		
+
+		position:absolute;
+		top:-0px;
+		left:0px;
+		margin:0px; 
+		transition:all 1s linear 3s;
+
+	}
+	div:hover>#child-one
+	{
+		transform:translateY(-100%); 
+
+
+	}
+	div>#child-Two
+	{
+		background-color:gold;
+		
+
+		position:absolute;
+		top:0px;
+		left:0px;
+		margin:0px; 
+		transition:all 1s linear 2s;
+
+	}
+	div:hover>#child-Two
+	{
+		transform:translateX(100%); 
+
+
+	}
+	div>#child-Three
+	{ 
+		background-color:blue;
+		
+
+		position:absolute;
+		top:-0px;
+		left:0px;
+		margin:0px; 
+		transition:all 1s linear 1s;
+
+	}
+	div:hover>#child-Three
+	{
+		transform:translateX(-100%); 
+
+
+	}
+	div>#child-Four
+	{ 
+		background-color:green;
+		
+
+		position:absolute;
+		top:0px;
+		left:0px;
+		margin:0px; 
+		transition:all 1s linear 0s;
+
+	}
+	div:hover>#child-four
+	{
+		transform:translateX(-100%); 
+
+
+	}
+	</style> 
+</head>
+<body> 
+	<div>
+      <img  src="images/ntr1.jpeg" alt="No Image">
+
+        <div id ="Class One"></div>
+        <div id=" Class Two"></div>
+        <div id=" Class Three"></div>
+        <div id=" Class Four"></div>
+  </div> 
+</body>
+</html>
+       
