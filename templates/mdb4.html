@@ -7,11 +7,51 @@
     <title>Document</title> 
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
     <link rel="stylesheet" href="{% static 'css/mdb.css' %}">
+
+    <style>
+        img
+        {
+            width:100%;
+            height:500px;
+        }
+        
+        
+        
+    </style>
 </head>
 <body>
     <center>
         <h1 class="btn btn-primary">mdb4</h1>
         <h2 class="btn btn-secondary">ntr</h2>
+        <h3 class="btn btn-danger">dhoni</h3>
+    <div class="carousel slide" data-riding="carousel" id="carouselExampleControls">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+
+                <img src="{% static 'image/ntr.jpg' %}" alt="">
+            </div>
+            <div class="carousel-item">
+
+                <img src="{% static 'image/dhoni1.jpg' %}" alt="">
+            </div>
+            <div class="carousel-item">
+
+                <img src="{% static 'image/mahi.jpg' %}" alt="">
+            </div>
+            
+        </div>
+        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        
+    </div>
+    
 
     </center>
 
@@ -21,5 +61,13 @@
     <script src="{% static 'js/popper.js' %}"></script>
     <script src="{% static 'js/bootstrap.js' %}"></script>
     <script src="{% static 'js/mdb.js' %}"></script>
+
+
+    <script>
+        $('.carousel').carousel({
+            'interval':3000,
+            'pause':'hover'
+        })
+    </script>
 </body>
 </html>

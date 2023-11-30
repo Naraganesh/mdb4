@@ -120,7 +120,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS=[STATIC_DIR_PROJECT16,STATIC_DIR_PROJECT16]
+STATICFILES_DIRS=[STATIC_DIR_PROJECT16,STATIC_DIR_APP]
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
